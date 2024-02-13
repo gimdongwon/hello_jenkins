@@ -21,9 +21,9 @@ pipeline {
             steps {
                 echo 'Clonning Repository'
 
-                git url: 'https://github.com/gimdongwon/hello_jenkins.git',
+                git url: 'https://github.com/gimdongwon/hello_jenkins',
                     branch: 'main',
-                    credentialsId: 'token for jenkins'
+                    credentialsId: 'tokenforjenkins'
             }
 
             post {
